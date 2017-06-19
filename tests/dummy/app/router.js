@@ -1,13 +1,12 @@
-import config from './config/environment'
-import Ember from 'ember'
-const {Router: EmberRouter} = Ember
+import Ember from 'ember';
+import config from './config/environment';
 
-var Router = EmberRouter.extend({
+const Router = Ember.Router.extend({
   location: config.locationType,
   rootURL: config.rootURL
-})
+});
 
-Router.map(function () {
+Router.map(function() {
   this.route('demo', {path: '/'})
   this.route('bookends')
   this.route('button')
@@ -33,6 +32,6 @@ Router.map(function () {
   this.route('toggle')
   this.route('typography')
   this.route('helpers')
-})
+});
 
-export default Router
+export default Router;

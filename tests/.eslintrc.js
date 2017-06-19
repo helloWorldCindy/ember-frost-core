@@ -1,5 +1,5 @@
 module.exports = {
-  globals: {
-    server: false
+  env: {
+    embertest: true
   }
-}
+};
