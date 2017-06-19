@@ -6,7 +6,6 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "lint": "lint-all-the-things",
@@ -15,9 +14,6 @@
     "test-addon": "EMBER_TRY_SCENARIO=${EMBER_TRY_SCENARIO:=default} && ember try:one $EMBER_TRY_SCENARIO --- COVERAGE=true ember test",
     "test-cli": "mocha --recursive tests/unit/lib/"
     },
-  "dependencies": {
-    "ember-cli-babel": "^5.1.7"
-  },
   "repository": "git@github.com:ciena-frost/ember-frost-core.git",
   "engines": {
     "node": ">= 6.0.0"
@@ -45,7 +41,7 @@
     "ember-cli-chai": "0.3.2",
     "ember-cli-code-coverage": "0.3.12",
     "ember-cli-dependency-checker": "^1.3.0",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.6",
+    "ember-cli-htmlbars-inline-precompile": "0.3.6",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-mirage": "0.2.5",
     "ember-cli-mocha": "0.13.2",
@@ -56,15 +52,15 @@
     "ember-computed-decorators": "~0.3.0",
     "ember-concurrency": "~0.7.15",
     "ember-data": "^2.11.0",
-    "ember-disable-prototype-extensions": "^1.1.0",
+    "ember-disable-prototype-extensions": "1.1.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-elsewhere": "~0.4.1",
-    "ember-export-application-global": "^1.0.5",
+    "ember-export-application-global": "^1.1.1",
     "ember-frost-test": "^1.0.0",
     "ember-hook": "^1.4.1",
-    "ember-load-initializers": "^0.6.0",
+    "ember-load-initializers": "^0.6.3",
     "ember-prop-types": "^3.10.2",
-    "ember-resolver": "^2.0.3",
+    "ember-resolver": "^2.1.1",
     "ember-sinon": "0.6.0",
     "ember-spread": "^1.1.1",
     "ember-test-utils": "^4.0.0",
